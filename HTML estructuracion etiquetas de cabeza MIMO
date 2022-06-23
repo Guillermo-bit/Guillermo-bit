@@ -1,0 +1,18 @@
+<head></head>
+es un contenedor de informacion sobre una pagina web 
+va antes de la etiqueta del cuerpo (body)
+EJ:***
+<html>
+<head>
+</head>
+<body>....
+*******************************+
+<title></title>
+sirve para darle un titulo a la pagina web 
+va dentro de las etiquetas de encabezado (head)
+EJ:***
+<html>
+<head>
+<title>My webpage</title>
+</head>
+<body>...
