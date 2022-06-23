@@ -1,0 +1,9 @@
+<!doctype html>
+le dice al navegador web que version de html estamos usando 
+EJ:***
+<!doctype html>
+<html>
+<head>
+<title>My webpage</title>
+</head>
+<body>...
