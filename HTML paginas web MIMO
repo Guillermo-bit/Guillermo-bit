@@ -1,0 +1,22 @@
+<html></html>
+elemento para crear pagina web
+<body></body>
+elemento que define el cuerpo de una pagina web 
+estructura:
+<html>
+<body>
+</body>
+</html>
+ej:****
+<html>
+<body>
+<button>Add to cart</button>
+</button>
+</html>
+ej:****
+<html>
+<body>
+<h1>Online Store</h1>
+<h6>Shoes</h6>
+</body>
+</html>
