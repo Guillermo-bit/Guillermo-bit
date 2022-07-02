@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Estructura basica HTML</title>
+  </head>
+  <body>
+    <h1>TITULO SUPERIOR VENTA AUTOMOVILES</h1>
+    <h2>automoviles nueva generacion</h2>
+    <img src="concesionario.jpg" border="3px" heigth="50px" width="200"/><br>
+    <img src="autos-1.jpg" border="5px" heigth="50px" width="150"/><br>
+    <img src="sandero.png" border="2px" heigth="50px" width="300"/>
+    <h3>distintas marcas al mejor precio</h3>
+    <button>ver modelos</button>
+    <button>ver marcas</button>
+    <p>Nuestro concecionario es uno de los <em>mejores en la ciudad</em>,<br>
+    tenemos las mejores marcas al mejor precio.</p>
+    <p>ven y conoce <strong>nuestros automoviles</strong> con la mejor garantia
+    y la mejor calidad...</p>
+  </body>
+</html>
