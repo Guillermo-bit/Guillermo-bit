@@ -1,0 +1,20 @@
+<?php
+
+//Variables
+
+$nombre = "Guillermo Beltran Royero";
+$correo = "guillebeltran500@gmail.com";
+
+
+echo "Nombre: ".$nombre."<br>";
+echo "Correo: " .$correo."<br>";
+
+$numberX = 5;
+$numberY = 6;
+$numberZ = 7;
+
+echo $numberX.$numberY.$numberZ."<br>";
+echo $numberY.$numberX.$numberZ."<br>";
+echo $numberZ.$numberY.$numberX."<br>";
+
+?>
