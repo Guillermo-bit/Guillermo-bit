@@ -1,0 +1,49 @@
+guillebeltlinux@DESKTOP-RGH2FK7:/home$ cd guillebeltlinux
+guillebeltlinux@DESKTOP-RGH2FK7:~$ ls
+guilledoc1
+guillebeltlinux@DESKTOP-RGH2FK7:~$ cd guilledoc1
+guillebeltlinux@DESKTOP-RGH2FK7:~/guilledoc1$ ls
+guillebeltlinux@DESKTOP-RGH2FK7:~/guilledoc1$ cd -
+/home/guillebeltlinux
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir fileA
+guillebeltlinux@DESKTOP-RGH2FK7:~$ ls
+fileA  guilledoc1
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir fileB
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir fileC
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir fileD
+guillebeltlinux@DESKTOP-RGH2FK7:~$ ls
+fileA  fileB  fileC  fileD  guilledoc1
+guillebeltlinux@DESKTOP-RGH2FK7:~$ rm -R guilledoc1
+guillebeltlinux@DESKTOP-RGH2FK7:~$ ls
+fileA  fileB  fileC  fileD
+guillebeltlinux@DESKTOP-RGH2FK7:~$ cd fileA
+guillebeltlinux@DESKTOP-RGH2FK7:~/fileA$ ls
+guillebeltlinux@DESKTOP-RGH2FK7:~/fileA$ >NewFile.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/fileA$ ls
+NewFile.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/fileA$ >beltran.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/fileA$ ls
+NewFile.txt  beltran.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/fileA$ cd -
+/home/guillebeltlinux
+guillebeltlinux@DESKTOP-RGH2FK7:~$ rm -R fileA
+guillebeltlinux@DESKTOP-RGH2FK7:~$ rm -R fileB
+guillebeltlinux@DESKTOP-RGH2FK7:~$ rm -R fileC
+guillebeltlinux@DESKTOP-RGH2FK7:~$ rm -R fileD
+guillebeltlinux@DESKTOP-RGH2FK7:~$ ls
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir Armagedon
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir Backer
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir Cartoon
+guillebeltlinux@DESKTOP-RGH2FK7:~$ mkdir Destine
+guillebeltlinux@DESKTOP-RGH2FK7:~$ ls
+Armagedon  Backer  Cartoon  Destine
+guillebeltlinux@DESKTOP-RGH2FK7:~$ cd Backer
+guillebeltlinux@DESKTOP-RGH2FK7:~/Backer$ >Guille.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/Backer$ ls
+Guille.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/Backer$ pwd
+/home/guillebeltlinux/Backer
+guillebeltlinux@DESKTOP-RGH2FK7:~/Backer$ ls -l
+total 0
+-rw-r--r-- 1 guillebeltlinux guillebeltlinux 0 Jul 31 15:15 Guille.txt
+guillebeltlinux@DESKTOP-RGH2FK7:~/Backer$
