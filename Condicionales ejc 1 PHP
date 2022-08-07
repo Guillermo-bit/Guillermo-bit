@@ -1,0 +1,27 @@
+<?php
+//Condicionales
+
+$p = true;
+$q = true;
+
+// Condicional 1
+
+if ($p && $q)
+{
+    echo "P y Q tienen un valor verdadero<br>";
+}
+
+// Condicional 2
+if ($p || $q)
+{
+    echo "P y Q tienen un valor verdadero<br>";
+}
+
+// Condicional 3
+
+if (!$p)
+{
+    echo "P tiene un valor de true<br>";
+}
+
+?>
