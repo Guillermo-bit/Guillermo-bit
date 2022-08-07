@@ -1,0 +1,14 @@
+<?php
+// Condicionales 
+
+if(25 > 6*5)
+{
+    echo "Excelente, la condicional es verdadera";
+}
+else
+{
+    echo "Oppps, la condicional es falsa";
+}
+    
+
+?>
