@@ -1,0 +1,29 @@
+<?php
+// Condicionales 
+
+$velocidad = 85;
+
+if($velocidad >= 0 and $velocidad <= 30)
+{
+    echo "Zonas escolares";
+}
+else if($velocidad >= 30 and $velocidad <= 60)
+{
+    echo "Vias urbanas";
+}
+else if($velocidad >= 60 and $velocidad <= 80)
+{
+    echo "Vias rurales";
+}
+else if($velocidad >= 80 and $velocidad <= 100)
+{
+    echo "Vias nacionales";
+}
+else
+{
+    echo "Estas infringiendo los limites de velocidad";
+}
+
+    
+
+?>
