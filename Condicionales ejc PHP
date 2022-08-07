@@ -1,0 +1,30 @@
+<?php
+// Condicionales 
+
+$Pregunta1 ="Si";
+$Pregunta2 ="No";
+
+echo "¿Eres de Colombia? </br>";
+echo "Respuesta: " . $Pregunta1 . "</br>";
+
+if ($Pregunta1 == "Si")
+{
+    echo "¿Eres de Antioquia?</br>";
+    echo "Respuesta: " . $Pregunta2 . "</br>";
+
+    if($Pregunta2 == "Si")
+    {
+        echo "Bienvenido</br>";
+    }
+    else
+    {
+        echo "Visitanos</br>";
+    }
+}
+else
+{
+  echo "Eres Extranjero</br>";
+}
+    
+
+?>
