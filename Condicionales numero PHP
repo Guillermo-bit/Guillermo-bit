@@ -1,0 +1,17 @@
+<?php
+// Condicionales 
+
+$numero = 20;
+
+if($numero > 0)
+{
+    echo "El numero es positivo";
+}
+else if($numero < 0)
+{
+    echo "El numero es negativo";
+}
+
+    
+
+?>
