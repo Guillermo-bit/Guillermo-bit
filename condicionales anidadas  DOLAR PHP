@@ -1,0 +1,31 @@
+<?php
+
+//condicionales anidadas
+
+$dolar = 5000;
+
+if($dolar >=0)
+{
+    if($dolar > 0 AND $dolar <= 1000)
+    {
+        echo "El dolar tiene un valor bajo";
+    }
+    else if($dolar > 1000 AND $dolar <= 2000)
+    {
+        echo "El dolar tiene un valor medio bajo";
+    }
+    else if($dolar > 2000 AND $dolar <= 3000)
+    {
+        echo "El dolar tiene un valor alto";
+    }
+    else if($dolar > 3000)
+    {
+        echo "El dolar tiene un valor muy alto";
+    }
+}
+else
+{
+    echo "El dolar no puede ser un valor negativo";
+}
+
+?>
